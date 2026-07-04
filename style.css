@@ -1,40 +1,76 @@
-.center-everything-on-page{
+.center-everything-on-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.center-everything-on-page-of-chooseing-page{
+
+.center-everything-on-page-of-chooseing-page {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75vh;
     gap: 15px;
 }
-.center-everything-on-louisiana-page{
+
+.center-everything-on-louisiana-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 25vh;
 }
-.center-start-your-run-page{
+
+.center-start-your-run-page {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: darkgrey;
 }
-body{
+
+body {
     background-color: lightgrey;
 }
 
-.size-text{
+.size-text {
     font-size: 150%;
 }
-h4{
+
+h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    background-color: darkgrey;
+}
+
+nav {
+    background-color: rgb(100, 98, 98);
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    gap: 10px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-color {
+    color: red;
+}
+
+.cards {
+     display: flex;
+     flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: grey;
 }
