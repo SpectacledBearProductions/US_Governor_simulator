@@ -5,6 +5,36 @@
     align-items: center;
     height: 100vh;
 }
-.button-style {
-    border-radius: 5%;
+.center-everything-on-page-of-chooseing-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    gap: 15px;
+}
+.center-everything-on-louisiana-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.center-start-your-run-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+body{
+    background-color: lightgrey;
+}
+
+.size-text{
+    font-size: 150%;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
