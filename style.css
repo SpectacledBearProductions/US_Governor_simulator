@@ -1,0 +1,10 @@
+.center-everything-on-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.button-style {
+    border-radius: 5%;
+}
